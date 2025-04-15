@@ -238,6 +238,7 @@ interface Module {
     faceinstance: "FaceInstance";
     decal: "Decal";
     texture: "Texture";
+    facialageestimationservice: "FacialAgeEstimationService";
     facialanimationrecordingservice: "FacialAnimationRecordingService";
     facialanimationstreamingservicestats: "FacialAnimationStreamingServiceStats";
     facialanimationstreamingservicev2: "FacialAnimationStreamingServiceV2";
@@ -679,6 +680,7 @@ interface Module {
     stylelink: "StyleLink";
     stylingservice: "StylingService";
     surfaceappearance: "SurfaceAppearance";
+    systemthemeservice: "SystemThemeService";
     taskscheduler: "TaskScheduler";
     team: "Team";
     teamcreatedata: "TeamCreateData";

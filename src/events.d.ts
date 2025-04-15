@@ -238,6 +238,7 @@ interface Module {
     faceinstance: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     decal: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     texture: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
+    facialageestimationservice: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     facialanimationrecordingservice: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     facialanimationstreamingservicestats: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     facialanimationstreamingservicev2: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
@@ -679,6 +680,7 @@ interface Module {
     stylelink: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     stylingservice: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     surfaceappearance: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
+    systemthemeservice: ["OnLuaThemeUpdated", "AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     taskscheduler: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     team: ["PlayerAdded", "PlayerRemoved", "AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
     teamcreatedata: ["AncestryChanged", "AttributeChanged", "ChildAdded", "ChildRemoved", "DescendantAdded", "DescendantRemoving", "Destroying", "StyledPropertiesChanged", "childAdded", "Changed"];
